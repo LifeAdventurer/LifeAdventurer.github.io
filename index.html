@@ -1,6 +1,13 @@
-Life Adventurer's Blog
-
-<script> ! function() {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Adventurer's Blog</title>
+</head>
+<body style="background-color:rgb(160, 205, 236);">
+  <script> ! function() {
     function get_attribute(node, attr, default_value) {
         return node.getAttribute(attr) || default_value;
     }
@@ -15,9 +22,9 @@ Life Adventurer's Blog
         return {
             l: script_len, // for canvas id
             z: get_attribute(script, "zIndex", -1),
-            o: get_attribute(script, "opacity", 0.5),
-            c: get_attribute(script, "color", "0,0,0"),
-            n: get_attribute(script, "count", 99)
+            o: get_attribute(script, "opacity", 0.9),
+            c: get_attribute(script, "color", "62, 173, 247"),
+            n: get_attribute(script, "count", 100)
         };
     }
     function set_canvas_size() {
@@ -162,7 +169,5 @@ Life Adventurer's Blog
     // }, 100);
 }();
                                                   </script>
-
-
-
-    
+</body>
+</html>
