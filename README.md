@@ -1,6 +1,6 @@
 # LifeAdventurer's Blog
 
-- [My first post](https://lifeadventurer.github.io/index)
+- [My first post](https://lifeadventurer.github.io/index.md)
 - [08/08/2022 LifeAdventurer]
 
 <script> ! function() {
