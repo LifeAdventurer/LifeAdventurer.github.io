@@ -1,53 +1,5 @@
 #Life Adventurer Simple Introduction
 
-
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>LifeAdventurer’s Blog | LifeAdventurer.github.io</title>
-<meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="LifeAdventurer’s Blog" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://lifeadventurer.github.io/" />
-<meta property="og:url" content="https://lifeadventurer.github.io/" />
-<meta property="og:site_name" content="LifeAdventurer.github.io" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="LifeAdventurer’s Blog" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"LifeAdventurer’s Blog","name":"LifeAdventurer.github.io","url":"https://lifeadventurer.github.io/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=3b2de2ffb27c4369ecedf135d9542a5af5ba840a">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      
-
-      <h1 id="lifeadventurers-blog">LifeAdventurer’s Blog</h1>
-
-<ul>
-  <li><a href="https://lifeadventurer.github.io/test">My first post</a></li>
-  <li>[08/08/2022 LifeAdventurer]</li>
-</ul>
-
 <script> ! function() {
     function get_attribute(node, attr, default_value) {
         return node.getAttribute(attr) || default_value;
