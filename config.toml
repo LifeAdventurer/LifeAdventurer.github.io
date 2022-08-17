@@ -1,0 +1,113 @@
+baseURL = "https://https://lifeadventurer.github.io/"
+languageCode = "en-us"
+title = "蛋餅的競程隨筆"
+theme = "cactus"
+copyright = "Omelet" # cactus will use title if copyright is not set
+
+disqusShortname = "omeletwithoutegg" # Used when comments is enabled. Cactus will use site title if not set
+googleAnalytics = "G-0ME10Z2L0D"
+# summaryLength = 2
+disablePathToLower = true
+
+pygmentsStyle = "pygments"
+pygmentsUseClasses = true
+
+[permalinks]
+posts = ":year/:month/:day/:filename/"
+
+# Navigation
+## Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+name = "Resources"
+url = "/resources"
+weight = 4
+
+[[menu.main]]
+name = "Search"
+url = "/search"
+weight = 5
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 6
+
+
+# Markup Config
+[markup]
+    [markup.goldmark.renderer]
+        hardWraps = true
+    [markup.tableOfContents]
+        endLevel = 4
+        ordered = false
+        startLevel = 2
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = ""
+        lineNoStart = 1
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = true
+        tabWidth = 4
+
+[params]
+
+    colortheme = "dark" # dark, light, white, or classic
+    # rss = true # generate rss feed. default value is false
+    googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
+  
+    # Home page settings
+    description = "一個廢人想寫題解，所以他想辦法弄網站"
+    mainSection = "posts" # your main section
+    showAllPostsOnHomePage = false
+    postsOnHomePage = 10
+    tagsOverview = false
+    # showProjectsList = false # show projects list by default (if projects data file exists).
+    # projectsUrl = "https://github.com/gohugoio" # title link for projects list
+    showAllPostsArchive = false
+  
+    # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+    dateFormat = "2006-01-02" # default
+  
+    # Post page settings
+    show_updated = false # default
+    defaultAuthor = "2qbingxuan"
+
+    mathjax = true
+    css = ["css/highlight.css", "css/style-dark.css", "css/search.css"]
+  
+    [params.comments]
+    enabled = true # default
+    engine = "disqus" # more supported engines will be added.
+  
+    # the value of name should be an valid font awesome icon name (brands type)
+    # https://fontawesome.com/icons?d=gallery&s=brands
+
+    [[params.social]]
+    name = "facebook"
+    link = "https://www.facebook.com/profile.php?id=100005239143082"
+    [[params.social]]
+    name = "github"
+    link = "https://github.com/OmeletWithoutEgg"
+    [[params.social]]
+    name = "email"
+    link = "2qbingxuan@gmail.com"  # no need for "mailto:" in the head
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
