@@ -101,13 +101,13 @@ weight = 6
 
     [[params.social]]
     name = "facebook"
-    link = "https://www.facebook.com/profile.php?id=100005239143082"
+    link = "https://www.facebook.com/"
     [[params.social]]
     name = "github"
-    link = "https://github.com/OmeletWithoutEgg"
+    link = "https://github.com"
     [[params.social]]
     name = "email"
-    link = "2qbingxuan@gmail.com"  # no need for "mailto:" in the head
+    link = ""  # no need for "mailto:" in the head
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
